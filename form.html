@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+        <table  align="center" bgcolor="lightblue">
+            <form name="onlineform">
+                <caption><h2>Online Application Form</h2></caption>
+                <tr>
+                    <td>Name</td>
+                    <td>Father's Name</td>
+                </tr>
+                <tr class="in">
+                    <td><input id="nm" type="text" name="nm" required></td>
+                    <td><input id="fn" type="text" name="fathername" required></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td>Gender</td>
+                </tr>
+                <tr>
+                    <td><input type="date" name="dob" required></td>
+                    <td>
+                        <select>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact No.</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="contactno" required></td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>City</td>
+                </tr>
+                <tr>
+                    <td><textarea rows="1" cols="20" name="address"></textarea></td>
+                    <td><input type="text" name="city" required></td>
+                </tr>
+                <tr>
+                    <td>H.S Marks</td>
+                    <td>Course</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="marks">
+                    </td>
+                    <td>
+                        <select>
+                            <option>BCA</option>
+                            <option>BA</option>
+                            <option>BSc</option>
+                            <option>BCom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Photo</td>
+                    <td>Upload Signature</td>
+                </tr>
+                <tr>
+                    <td><input type="file" name="photo" required></td>
+                    <td><input type="file" name="signature" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input class="submit" type="submit" value="Submit"></td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
